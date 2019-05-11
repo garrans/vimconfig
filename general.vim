@@ -1,4 +1,4 @@
-colorscheme industry
+colorscheme darkblue
 
 set number
 set relativenumber

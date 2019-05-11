@@ -2,6 +2,8 @@
 "
 " https://dougblack.io/words/a-good-vimrc.html
 "
+" changed:
+"	 11/5/19 sjg: deleted a line
 "
 "
 "
@@ -9,7 +11,6 @@ let mapleader=","       " leader is comma
 
 " jk is escape
 inoremap jk <esc>
-
 
 map <F2> :NERDTreeToggle<CR>
 

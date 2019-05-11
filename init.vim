@@ -1,4 +1,3 @@
-
 " Specify a directory for plugins
 " - For Neovim: ~/.local/share/nvim/plugged
 "
@@ -13,21 +12,17 @@
 "       line.vim - line mods not contained in general. 
 "
 "
+source general.vim
+source setcolors.vim
 "
-
-
-source $HOME\AppData\Local\nvim\general.vim
-source $HOME\AppData\Local\nvim\setcolors.vim
-
 " - Avoid using standard Vim directory names like 'plugin'
-call plug#begin('~/AppData/Local/nvim/plugged')
-
-source $HOME\AppData\Local\nvim\plugins.vim
-
+call plug#begin('plugged')
+source plugins.vim
+"
+"
 call plug#end()
-
-source $HOME\AppData\Local\nvim\keys.vim
-source $HOME\AppData\Local\nvim\line.vim
-
-
+"
+"
+source keys.vim
+source line.vim
 

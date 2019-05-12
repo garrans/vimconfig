@@ -11,18 +11,30 @@
 "       keys - keyboard mapping commands
 "       line.vim - line mods not contained in general. 
 "
-"
-source general.vim
-source setcolors.vim
+"" adjust configuration for such hostile environment as Windows {{{
+
+let $VIMFILELOCATION = substitute($MYVIMRC, "/init.vim", "", "")
+
+if has("win32") || has("win16") || has("win64")
+  let s:one=1
+"  echo "Windows: ", $VIMFILELOCATION
+else
+  let s:one=1
+"  echo "linux: ". $VIMFILELOCATION
+endif
+" }}
+source $VIMFILELOCATION/general.vim
+
+source $VIMFILELOCATION/setcolors.vim
 "
 " - Avoid using standard Vim directory names like 'plugin'
 call plug#begin('plugged')
-source plugins.vim
+source $VIMFILELOCATION/plugins.vim
 "
 "
 call plug#end()
 "
 "
-source keys.vim
-source line.vim
+source $VIMFILELOCATION/keys.vim
+source $VIMFILELOCATION/line.vim
 

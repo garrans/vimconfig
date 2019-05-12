@@ -20,5 +20,8 @@ nnoremap <silent> "" :registers "0123456789abcdefghijklmnopqrstuvwxyz*+.<CR>
 " this allows the use of <Ctrl><Shift>-v to paste while in insert mode
 
 set clipboard+=unnamed  " use the clipboards of vim and win
-set paste               " Paste from a windows or from vim
+
+"checkhealth recommended not setting this
+"set paste               " Paste from a windows or from vim
+
 set go+=a               " Visual selection automatically copied to the clipboard

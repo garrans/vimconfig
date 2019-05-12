@@ -13,7 +13,7 @@
 "
 "" adjust configuration for such hostile environment as Windows {{{
 
-let $VIMFILELOCATION = substitute($MYVIMRC, "/init.vim", "", "")
+let $VIMFILELOCATION = substitute($MYVIMRC, "init.vim", "", "")
 
 if has("win32") || has("win16") || has("win64")
   let s:one=1
@@ -23,18 +23,24 @@ else
 "  echo "linux: ". $VIMFILELOCATION
 endif
 " }}
-source $VIMFILELOCATION/general.vim
+let $VIMFILETOREAD = $VIMFILELOCATION . 'general.vim'
+source $VIMFILETOREAD
 
-source $VIMFILELOCATION/setcolors.vim
+let $VIMFILETOREAD = $VIMFILELOCATION . 'setcolors.vim'
+source $VIMFILETOREAD
 "
 " - Avoid using standard Vim directory names like 'plugin'
 call plug#begin('plugged')
 source $VIMFILELOCATION/plugins.vim
+source $VIMFILETOREAD
 "
 "
 call plug#end()
 "
 "
-source $VIMFILELOCATION/keys.vim
-source $VIMFILELOCATION/line.vim
+let $VIMFILETOREAD = $VIMFILELOCATION . 'keys.vim'
+source $VIMFILETOREAD
+
+let $VIMFILETOREAD = $VIMFILELOCATION . 'line.vim'
+source $VIMFILETOREAD
 

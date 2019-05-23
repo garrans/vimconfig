@@ -11,6 +11,7 @@
 "   :SetColors                  (display current scheme names)
 " Set the current color scheme based on time of day:
 "   :SetColors now
+"
 if v:version < 700 || exists('loaded_setcolors') || &cp
   finish
 endif

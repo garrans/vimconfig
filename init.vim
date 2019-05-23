@@ -18,6 +18,7 @@ let $VIMFILELOCATION = substitute($MYVIMRC, "init.vim", "", "")
 
 if has("win32") || has("win16") || has("win64")
   let s:one=1
+  let s:two=2
 "  echo "Windows: ", $VIMFILELOCATION
 else
   let s:one=1

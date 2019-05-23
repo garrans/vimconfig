@@ -13,6 +13,7 @@
 "
 "" adjust configuration for such hostile environment as Windows {{{
 
+
 let $VIMFILELOCATION = substitute($MYVIMRC, "init.vim", "", "")
 
 if has("win32") || has("win16") || has("win64")

@@ -29,8 +29,12 @@ source $VIMFILETOREAD
 let $VIMFILETOREAD = $VIMFILELOCATION . 'setcolors.vim'
 source $VIMFILETOREAD
 "
+let $VIMPLUGINLOCATION = $VIMFILELOCATION . 'plugged'
+"
 " - Avoid using standard Vim directory names like 'plugin'
-call plug#begin('plugged')
+"echo $VIMPLUGINLOCATION
+call plug#begin($VIMPLUGINLOCATION)
+
 source $VIMFILELOCATION/plugins.vim
 source $VIMFILETOREAD
 "

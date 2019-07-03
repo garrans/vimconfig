@@ -15,3 +15,15 @@ Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 " vim-buffer-line
 Plug 'bling/vim-bufferline'
 
+
+" Custom plugins...
+" EasyMotion - Allows <leader><leader>(b|e) to jump to (b)eginning or (end)
+" of words.
+Plug 'easymotion/vim-easymotion'
+" Ctrl-P - Fuzzy file search
+Plug 'kien/ctrlp.vim'
+" Neomake build tool (mapped below to <c-b>)
+Plug 'benekastah/neomake'
+" Autocomplete for python
+Plug 'davidhalter/jedi-vim'
+

@@ -25,14 +25,9 @@ else
 "  echo "linux: ". $VIMFILELOCATION
 endif
 " }}
-let $VIMFILETOREAD = $VIMFILELOCATION . 'general.vim'
+let $VIMFILETOREAD = $VIMFILELOCATION . 'pre-plugin-init.vim'
 source $VIMFILETOREAD
 
-let $VIMFILETOREAD = $VIMFILELOCATION . 'setcolors.vim'
-source $VIMFILETOREAD
-"
-colorscheme industry
-"
 let $VIMPLUGINLOCATION = $VIMFILELOCATION . 'plugged'
 "
 " - Avoid using standard Vim directory names like 'plugin'
@@ -45,10 +40,10 @@ source $VIMFILETOREAD
 "
 call plug#end()
 "
-"
-let $VIMFILETOREAD = $VIMFILELOCATION . 'keys.vim'
+let $VIMFILETOREAD = $VIMFILELOCATION . 'setcolors.vim'
 source $VIMFILETOREAD
-
-let $VIMFILETOREAD = $VIMFILELOCATION . 'line.vim'
+"
+"
+let $VIMFILETOREAD = $VIMFILELOCATION . 'post-plugin-init.vim'
 source $VIMFILETOREAD
 

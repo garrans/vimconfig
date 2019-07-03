@@ -2,12 +2,10 @@
 "
 " https://dougblack.io/words/a-good-vimrc.html
 "
-" changed:
-"	 11/5/19 sjg: deleted a line
 "
 "
 "
-let mapleader=","       " leader is comma
+let mapleader="\\"       " leader settings
 
 " jk is escape
 inoremap jk <esc>
@@ -28,3 +26,7 @@ set clipboard+=unnamed  " use the clipboards of vim and win
 "set paste               " Paste from a windows or from vim
 
 set go+=a               " Visual selection automatically copied to the clipboard
+"
+" Set ColorScheme
+" =====================
+colorscheme industry

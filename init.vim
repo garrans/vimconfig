@@ -31,6 +31,8 @@ source $VIMFILETOREAD
 let $VIMFILETOREAD = $VIMFILELOCATION . 'setcolors.vim'
 source $VIMFILETOREAD
 "
+colorscheme industry
+"
 let $VIMPLUGINLOCATION = $VIMFILELOCATION . 'plugged'
 "
 " - Avoid using standard Vim directory names like 'plugin'

@@ -12,7 +12,10 @@ let mapleader=","       " leader is comma
 " jk is escape
 inoremap jk <esc>
 
+"NERDTree Items
 map <F2> :NERDTreeToggle<CR>
+let NERDTreeShowHidden=1
+let NERDTreeShowBookmarks=1
 
 " List contents of all registers (that typically contain pasteable text).
 nnoremap <silent> "" :registers "0123456789abcdefghijklmnopqrstuvwxyz*+.<CR>

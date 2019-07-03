@@ -1,4 +1,4 @@
-colorscheme darkblue
+colorscheme murphy
 
 set number
 set relativenumber
@@ -10,7 +10,7 @@ set expandtab       " tabs are spaces
 
 set showcmd             " show command in bottom bar
 
-set cursorline          " highlight current line
+" set cursorline          " highlight current line
 
 filetype indent on      " load filetype-specific indent files
 

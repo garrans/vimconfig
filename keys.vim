@@ -18,7 +18,6 @@ map <F2> :NERDTreeToggle<CR>
 nnoremap <silent> "" :registers "0123456789abcdefghijklmnopqrstuvwxyz*+.<CR>
 
 " this allows the use of <Ctrl><Shift>-v to paste while in insert mode
-
 set clipboard+=unnamed  " use the clipboards of vim and win
 
 "checkhealth recommended not setting this

@@ -12,6 +12,8 @@ let g:EasyMotion_leader_key = '<Leader>'
 inoremap jk <esc>
 
 " sjg map <Ctrl-i> to insert a single character
+" this is is added line
+" second added line from cmd prompt
 " suggested in https://superuser.com/questions/581572/insert-single-character-in-vim
 nnoremap <C-i> i_<Esc>r
 

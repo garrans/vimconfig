@@ -22,8 +22,21 @@ Plug 'bling/vim-bufferline'
 Plug 'easymotion/vim-easymotion'
 " Ctrl-P - Fuzzy file search
 Plug 'kien/ctrlp.vim'
+
 " Neomake build tool (mapped below to <c-b>)
 Plug 'benekastah/neomake'
+
 " Autocomplete for python
 Plug 'davidhalter/jedi-vim'
 
+" Colorscheme Zenburn
+Plug 'jnurmine/Zenburn'
+
+" Colorscheme solarized
+Plug 'altercation/vim-colors-solarized'
+
+"Xterm Color Table
+Plug 'guns/xterm-color-table.vim'
+
+" Tab completion
+Plug 'ervandew/supertab'

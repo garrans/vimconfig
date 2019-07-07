@@ -5,10 +5,15 @@
 "
 "
 "
-let mapleader="\\"       " leader settings
+let mapleader=","       " leader settings
+let g:EasyMotion_leader_key = '<Leader>'
 
 " jk is escape
 inoremap jk <esc>
+
+" sjg map <Ctrl-i> to insert a single character
+" suggested in https://superuser.com/questions/581572/insert-single-character-in-vim
+nnoremap <C-i> i_<Esc>r
 
 "NERDTree Items
 map <F2> :NERDTreeToggle<CR>
@@ -29,4 +34,4 @@ set go+=a               " Visual selection automatically copied to the clipboard
 "
 " Set ColorScheme
 " =====================
-colorscheme industry
+colorscheme zenburn

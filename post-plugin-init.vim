@@ -17,10 +17,16 @@ inoremap jk <esc>
 " suggested in https://superuser.com/questions/581572/insert-single-character-in-vim
 nnoremap <C-i> i_<Esc>r
 
+" F3 to toggle search highlight
+set hlsearch!
+nnoremap <F3> :set hlsearch!<CR>
+
+
 "NERDTree Items
 map <F2> :NERDTreeToggle<CR>
 let NERDTreeShowHidden=1
 let NERDTreeShowBookmarks=1
+set modifiable
 
 " List contents of all registers (that typically contain pasteable text).
 nnoremap <silent> "" :registers "0123456789abcdefghijklmnopqrstuvwxyz*+.<CR>
@@ -36,4 +42,16 @@ set go+=a               " Visual selection automatically copied to the clipboard
 "
 " Set ColorScheme
 " =====================
-colorscheme zenburn
+colorscheme slate
+
+"
+" UltiSnips Config
+" =====================
+"
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+
+let g:UltiSnipsEditSplit="vertical"
+
+

@@ -16,6 +16,10 @@ Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'bling/vim-bufferline'
 
 
+" vim-airline
+Plug 'vim-airline/vim-airline'
+
+
 " Custom plugins...
 " EasyMotion - Allows <leader><leader>(b|e) to jump to (b)eginning or (end)
 " of words.

@@ -1,6 +1,6 @@
 " Specify a directory for plugins
 " - For Neovim: ~/.local/share/nvim/plugged
-"
+" 
 " - for Neovim Windows init.vim .... 
 "
 "       init.vim - make this one specific for each OS

@@ -19,29 +19,29 @@ let $VIMFILELOCATION = substitute($MYVIMRC, "init.vim", "", "")
 if has("win32") || has("win16") || has("win64")
   let s:one=1
   let s:two=2
-"  echo "Windows: ", $VIMFILELOCATION
+  echo "Windows: ", $VIMFILELOCATION
 else
   let s:one=1
-"  echo "linux: ". $VIMFILELOCATION
+  echo "linux: ". $VIMFILELOCATION
 endif
 " }}
-let $VIMFILETOREAD = $VIMFILELOCATION . 'pre-plugin-init.vim'
-source $VIMFILETOREAD
+" let $VIMFILETOREAD = $VIMFILELOCATION . 'pre-plugin-init.vim'
+" source $VIMFILETOREAD
 
 let $VIMPLUGINLOCATION = $VIMFILELOCATION . 'plugged'
 "
 " - Avoid using standard Vim directory names like 'plugin'
-"echo $VIMPLUGINLOCATION
-call plug#begin($VIMPLUGINLOCATION)
+echo $VIMPLUGINLOCATION
+"call plug#begin($VIMPLUGINLOCATION)
 
-source $VIMFILELOCATION/plugins.vim
-source $VIMFILETOREAD
+"source $VIMFILELOCATION/plugins.vim
+"source $VIMFILETOREAD
 "
 "
-call plug#end()
+"call plug#end()
 "
-let $VIMFILETOREAD = $VIMFILELOCATION . 'setcolors.vim'
-source $VIMFILETOREAD
+"let $VIMFILETOREAD = $VIMFILELOCATION . 'setcolors.vim'
+"source $VIMFILETOREAD
 "
 "
 let $VIMFILETOREAD = $VIMFILELOCATION . 'post-plugin-init.vim'

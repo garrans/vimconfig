@@ -4,5 +4,21 @@ Quick Notes:
         WSL: Need to install pip3 ++ for nvim config to work
                 
                 sudo apt install python3 python3-pip ipython3
-
+                python3 -m pip install --user --upgrade pynvim
         
+
+        Re: Links to configs
+                Windows: i prefer to put nvim configs in %USERPROFILE%/.config/nvim
+
+                        New-Item -ItemType SymbolicLink -Path "Link" -Target "Target"
+
+        Provider Perl
+                sudo apt install cpanminus
+                sudo cpanm -n Neovim::Ext
+
+        Deoplete Requirements
+
+                python3 -mpip install --user -U msgpack
+
+                :python3 import msgpack
+                :python3 print(msgpack.version)

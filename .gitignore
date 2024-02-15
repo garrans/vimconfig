@@ -1,0 +1,9 @@
+# Git Ignore for my .config directory repo
+
+
+# XMBC X-mouse-button-controller
+# Ignoring all xmbclp language files. These are standard delivered with the package. 
+
+xmbc/*.xmbclp
+
+

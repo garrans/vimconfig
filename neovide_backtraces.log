@@ -1,0 +1,17 @@
+2024-01-09 20:00:01 - Neovide panicked with the message 'Failed to create Window: Error { raw_code: None, raw_os_message: None, kind: NotFound }'. (File: src/renderer/opengl.rs; Line: 92, Column: 10)
+   0: <unknown>
+   1: <unknown>
+   2: <unknown>
+   3: <unknown>
+   4: <unknown>
+   5: <unknown>
+   6: <unknown>
+   7: <unknown>
+   8: <unknown>
+   9: <unknown>
+  10: <unknown>
+  11: <unknown>
+  12: <unknown>
+  13: __libc_start_main
+  14: <unknown>
+

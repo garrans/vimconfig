@@ -1,0 +1,56 @@
+{
+  "parser-directories": [
+    "/home/garrans/github",
+    "/home/garrans/src",
+    "/home/garrans/source"
+  ],
+  "theme": {
+    "function": 26,
+    "constant": 94,
+    "tag": 18,
+    "variable.builtin": {
+      "bold": true
+    },
+    "number": {
+      "color": 94,
+      "bold": true
+    },
+    "operator": {
+      "bold": true,
+      "color": 239
+    },
+    "punctuation.delimiter": 239,
+    "function.builtin": {
+      "color": 26,
+      "bold": true
+    },
+    "string.special": 30,
+    "property": 124,
+    "type.builtin": {
+      "bold": true,
+      "color": 23
+    },
+    "module": 136,
+    "comment": {
+      "italic": true,
+      "color": 245
+    },
+    "string": 28,
+    "keyword": 56,
+    "type": 23,
+    "constant.builtin": {
+      "color": 94,
+      "bold": true
+    },
+    "attribute": {
+      "color": 124,
+      "italic": true
+    },
+    "constructor": 136,
+    "punctuation.bracket": 239,
+    "embedded": null,
+    "variable.parameter": {
+      "underline": true
+    }
+  }
+}

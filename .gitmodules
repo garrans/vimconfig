@@ -18,13 +18,17 @@
 	path = nvim-Ecovim
 	url = git@github.com:pze/ecovim
   ignore = dirty
-# submodule "[nvim-LazyVim"]
-#	path = nvim-LazyVim
-#	url = git@github.com:LazyVim/LazyVim.git
-#  ignore = dirty
 [submodule "nvim-Lazyman"]
 	path = nvim-Lazyman
 	url = git@github.com:doctorfree/nvim-lazyman.git
+  ignore = dirty
+[submodule "nvim-LunarVim"]
+	path = nvim-LunarVim
+	url = git@github.com:LunarVim/LunarVim.git
+  ignore = dirty
+[submodule "nvim-MagicVim"]
+	path = nvim-MagicVim
+	url = git@github.com:jameshiew/nvim-magic.git
   ignore = dirty
 [submodule "nvim-AstroNvimPlus"]
 	path = nvim-AstroNvimPlus
@@ -61,14 +65,6 @@
 [submodule "tmux/plugins/tpm"]
 	path = tmux/plugins/tpm
 	url = git@github.com:tmux-plugins/tpm.git
-  ignore = dirty
-[submodule "nvim-LunarVim"]
-	path = nvim-LunarVim
-	url = git@github.com:LunarVim/LunarVim.git
-  ignore = dirty
-[submodule "nvim-MagicVim"]
-	path = nvim-MagicVim
-	url = git@github.com:jameshiew/nvim-magic.git
   ignore = dirty
 [submodule "tmux/plugins/tmux.nvim"]
 	path = tmux/plugins/tmux.nvim
